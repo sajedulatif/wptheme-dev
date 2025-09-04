@@ -21,3 +21,15 @@ folder sructure
 4.styles
 5.patterns
 6.templates
+
+
+
+
+
+---------------
+<!--
+ including 
+ css(frontend-css,inline-css,block-css,editor-css)
+ js(frontend-js,inline-js,wordpress defult script,editor-js) files
+ images, fonts
+ -->

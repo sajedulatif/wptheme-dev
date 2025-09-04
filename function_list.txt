@@ -1,0 +1,24 @@
+Wordpress Function List
+
+ add_action('after_setup_theme', 'wpthemedev_setup');
+ add_theme_support('post-thumbnails', array('post', 'page'));
+ add_action('wp_enqueue_scripts', 'wpthemedevscript');
+ wp_enqueue_style("defult_css", get_stylesheet_uri());
+ wp_enqueue_style("main_css", get_template_directory_uri()."/assets/css/main.css"); /*ei baveo kora jay*/
+ wp_enqueue_style("main_css", get_parent_theme_file_uri('assets/css/main.css'));
+ wp_enqueue_style("main_css",get_parent_theme_file_uri('assets/css/main.css'),array(),wp_get_theme()->get('Version'),'all' );
+ wp_head();
+ get_template_directory_uri()
+ wp_get_theme()->get('Version')
+ wp_add_inline_style()
+ wp_enqueue_script("main_js", get_template_directory_uri(). "/assets/js/main.js",array(),wp_get_theme()->get('Version'),true);
+ wp_footer()
+ wp_add_inline_script()
+ wp_add_inline_script(
+      'main_js', 'console.log("hello world");'
+    );
+
+
+
+
+
