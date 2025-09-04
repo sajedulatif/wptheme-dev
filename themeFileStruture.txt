@@ -1,0 +1,23 @@
+Wp theme devlopment theme structure
+
+Requeird files
+1.style.css
+2.index.php
+
+optional file
+1.README.txt
+2.screenshot.png
+3.functions.php
+4.theme.json
+5.package.json
+
+folder sructure
+1.assets
+  1.css
+  2.js
+  3.images
+2.inc
+3.parts
+4.styles
+5.patterns
+6.templates
