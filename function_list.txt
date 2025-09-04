@@ -17,7 +17,10 @@ Wordpress Function List
  wp_add_inline_script(
       'main_js', 'console.log("hello world");'
     );
+ <img src="<?php echo esc_url(get_theme_file_uri('assets/images/jahangir_weeding_2.jpg'))?>" alt="" srcset="">
+<?php get_header(); ?>
 
+<?php get_footer(); ?>
 
 
 
